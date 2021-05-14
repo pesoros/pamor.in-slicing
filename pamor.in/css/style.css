@@ -964,6 +964,20 @@ textarea {
 
 }
 
+.ads-header-wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 80px;
+    background: #000000;
+}
+
+.ads-footer-wrapper {
+    margin-top: -60px;
+    margin-bottom: 0px;
+    height: 80px;
+    background: #000000;
+}
+
 /* pages wrapper for chat.html only */
 .pages-wrapper-chat {
     padding-bottom: 62px !important;
