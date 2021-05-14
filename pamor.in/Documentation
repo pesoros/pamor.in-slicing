@@ -1,0 +1,69 @@
+<!-- DOCUMENTATION -->
+
+<!-- 
+    1. COLOR
+    2. BUTTON
+    3. LOGO
+    4. TEXT
+    5. IMAGE
+    6. CAPTION
+    7. COLUMN
+    8. SEPARATOR
+    9. CONTAINER
+ -->
+
+ <!-- 1. COLOR -->
+    pl-white
+    pl-yellow
+    pl-orange
+    pl-blue
+    pl-green
+    pl-black
+    pl-pink
+    pl-red
+
+<!-- 2. BUTTON -->
+    <a href="#">
+        <button class="button color">
+
+        </button>
+    </a>
+
+<!-- 3. LOGO -->
+    <text class="fab fa-whatsapp color" />
+    <text class="fab fa-facebook-fa color" />
+    <text class="fab fa-line color" />
+    <text class="fab fa-instagram color" />
+    <text class="fab fa-telegram color" />
+    <text class="fab fa-facebook-messenger color" />
+
+<!-- 4. TEXT -->
+    <text class="color">
+
+    </text>
+
+<!-- 5. IMAGE -->
+    <div class="img">
+        <img src=" ">
+    </div>
+
+
+<!-- 6. CAPTION -->
+    <div class="card color">
+        <text class="color">lorem ipsum</text>
+    </div>
+
+<!-- 7. COLUMN -->
+    <div class="col-12">
+
+    </div>
+
+<!-- 8. SEPARATOR -->
+    <div class="separator-small"></div>
+
+<!-- 9. CONTAINER -->
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
