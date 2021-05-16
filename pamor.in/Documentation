@@ -1,69 +1,74 @@
 <!-- DOCUMENTATION -->
 
 <!-- 
-    1. COLOR
-    2. BUTTON
-    3. LOGO
-    4. TEXT
-    5. IMAGE
-    6. CAPTION
-    7. COLUMN
+    1. CONTAINER -- CORE
+    2. COLUMN -- CORE
+    3. BUTTON
+    4. LOGO
+    5. TEXT
+    6. IMAGE
+    7. CAPTION
     8. SEPARATOR
-    9. CONTAINER
  -->
 
- <!-- 1. COLOR -->
-    pl-white
-    pl-yellow
-    pl-orange
-    pl-blue
-    pl-green
-    pl-black
-    pl-pink
-    pl-red
+ <!-- 1. CONTAINER -->
+    <div class="container">
+        <div class="row">
 
-<!-- 2. BUTTON -->
+        </div>
+    </div>
+
+
+<!-- 2. COLUMN -->
+    <div class="col-12">
+
+    </div>
+    <div class="col-6">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+
+
+<!-- 3. BUTTON -->
     <a href="#">
         <button class="button color">
 
         </button>
     </a>
 
-<!-- 3. LOGO -->
-    <text class="fab fa-whatsapp color" />
-    <text class="fab fa-facebook-fa color" />
-    <text class="fab fa-line color" />
-    <text class="fab fa-instagram color" />
-    <text class="fab fa-telegram color" />
-    <text class="fab fa-facebook-messenger color" />
 
-<!-- 4. TEXT -->
+<!-- 4. LOGO -->
+    <text class="fab fa-whatsapp color"/>
+    <text class="fab fa-facebook-fa color"/>
+    <text class="fab fa-line color"/>
+    <text class="fab fa-instagram color"/>
+    <text class="fab fa-telegram color"/>
+    <text class="fab fa-facebook-messenger color"/>
+
+
+<!-- 5. TEXT -->
     <text class="color">
-
+    
     </text>
 
-<!-- 5. IMAGE -->
+
+<!-- 6. IMAGE -->
     <div class="img">
         <img src=" ">
     </div>
 
 
-<!-- 6. CAPTION -->
+<!-- 7. CAPTION -->
     <div class="card color">
-        <text class="color">lorem ipsum</text>
+        <text class="color">
+        
+        </text>
     </div>
 
-<!-- 7. COLUMN -->
-    <div class="col-12">
-
-    </div>
 
 <!-- 8. SEPARATOR -->
     <div class="separator-small"></div>
-
-<!-- 9. CONTAINER -->
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
+    <div class="separator-medium"></div>
+    <div class="separator-large"></div>

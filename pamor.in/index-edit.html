@@ -89,7 +89,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<a href="#" data-toggle="modal" data-target="#shareModal">
+						<a href="#" data-toggle="modal" data-target="#tambahModal">
 							<button class="button-default">
 								<text class="fas fa-plus" />
 							</button>
@@ -99,7 +99,7 @@
 			</div>
 			<!-- END TAMBAH -->
 
-			<!-- MODAL TAMBAH -->
+			<!-- MODAL -->
 			<div class="modal-action-content">
 
 				<div id="pengaturanModal" class="modal fade login-modal">
@@ -108,7 +108,7 @@
 							<div class="modal-body">
 								<div class="row">
 									<div class="col-12 text-right">
-										<a href="#" data-dismiss="modal" class="fas fa-times text-large"></a>
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
 									</div>
 								</div>
 								<div class="modal-icon-title">
@@ -127,7 +127,7 @@
 
     								<div class="separator-small"></div>
 
-									<text for="colorpicker">Foto Profil :</text>
+									<text>Foto Profil :</text>
 									<div class="img">
 										<img src="images/intro.jpg">
 									</div>
@@ -137,14 +137,14 @@
 									<div class="row">
 										<div class="col-6">
 											<a href="#">
-												<button class="button">
+												<button class="button-default">
 													<text>Hapus</text>
 												</button>
 											</a>
 										</div>
 										<div class="col-6">
 											<a href="#">
-												<button class="button">
+												<button class="button-default">
 													<text>Unggah</text>
 												</button>
 											</a>
@@ -153,19 +153,19 @@
 
     								<div class="separator-small"></div>
 
-									<text for="colorpicker">Warna Background :</text>
+									<text for="warnaBackground">Warna Background :</text>
    									<input type="color" id="warnaBackground" value="#ffffff">
 
     								<div class="separator-small"></div>
 
-									<text for="colorpicker">Warna Tombol :</text>
+									<text for="warnaTombol">Warna Tombol :</text>
    									<input type="color" id="warnaTombol" value="#000000">
 
     								<div class="separator-small"></div>
 
 									<div class="button-default">
 										<a href="">
-											<button class="button">
+											<button class="button-default">
 												<text>Simpan</text>
 											</button>
 										</a>
@@ -176,51 +176,515 @@
 					</div>
 				</div>
 
-				<div id="shareModal" class="modal fade share-modal">
+				<div id="tambahModal" class="modal fade share-modal">
 					<div class="modal-dialog modal-bottom">
 						<div class="modal-content">
 							<div class="modal-body">
-								<div class="modal-icon-title">
-									<i class="icon ion-ios-share"></i>
-									<h5>Share & Distribute</h5>
-									<p class="text-small">So that users easily use and customize this template Equipped with various features</p>
-								</div>
-								<div class="social-media-icon">
-									<div class="row">
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-facebook bg-facebook"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-instagram bg-instagram"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-twitter bg-twitter"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-google bg-google"></i></a>
-										</div>
+								<div class="row">
+									<div class="col-12 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
 									</div>
-									<div class="row">
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-pinterest bg-pinterest"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-linkedin bg-linkedin"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-yahoo bg-yahoo"></i></a>
-										</div>
-										<div class="col-3">
-											<a href="#"><i class="icon ion-logo-whatsapp bg-whatsapp"></i></a>
-										</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Tambah Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Kolom">
+											<button class="button-default">
+												<text>
+													1 Kolom
+												</text>
+											</button>
+										</a>
+									</div>
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal2Kolom">
+											<button class="button-default">
+												<text>
+													2 Kolom
+												</text>
+											</button>
+										</a>
+									</div>
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal3Kolom">
+											<button class="button-default">
+												<text>
+													3 Kolom
+												</text>
+											</button>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div id="modal1Kolom" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#tambahModal" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Tombol">
+											<button class="button-default">
+												<text>
+													Tombol
+												</text>
+											</button>
+										</a>
+									</div>
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Foto">
+											<button class="button-default">
+												<text>
+													Foto
+												</text>
+											</button>
+										</a>
+									</div>
+									<div class="col-4">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Text">
+											<button class="button-default">
+												<text>
+													Text
+												</text>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal2Kolom" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#tambahModal" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal2Tombol">
+											<button class="button-default">
+												<text>
+													Tombol
+												</text>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal3Kolom" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#tambahModal" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal3Tombol">
+											<button class="button-default">
+												<text>
+													Tombol
+												</text>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal1Tombol" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Kolom" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal1Tombol1Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal1Tombol1Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal1Tombol1Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="button-default">
+									<a href="">
+										<button class="button-default">
+											<text>Simpan</text>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal1Foto" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Kolom" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="img">
+									<img src="images/intro.jpg">
+								</div>
+
+								<div class="separator-small"></div>
+
+								<div class="row">
+									<div class="col-6">
+										<a href="#">
+											<button class="button-default">
+												<text>Hapus</text>
+											</button>
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<button class="button-default">
+												<text>Unggah</text>
+											</button>
+										</a>
+									</div>
+								</div>
+								<div class="button-default">
+									<a href="">
+										<button class="button-default">
+											<text>Simpan</text>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal1Text" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal1Kolom" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="input-wrap">
+									<textarea cols="30" rows="10" placeholder="Text"></textarea>
+								</div>
+								<div class="button-default">
+									<a href="">
+										<button class="button-default">
+											<text>Simpan</text>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal2Tombol" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal2Kolom" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal2Tombol1Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal2Tombol1Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal2Tombol1Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="separator-small"></div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal2Tombol2Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal2Tombol2Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal2Tombol2Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="button-default">
+									<a href="">
+										<button class="button-default">
+											<text>Simpan</text>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal3Tombol" class="modal fade share-modal">
+					<div class="modal-dialog modal-bottom">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-2 text-left">
+										<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal3Kolom" class="fas fa-arrow-left text-large color-default"></a>
+									</div>
+									<div class="col-8">
+
+									</div>
+									<div class="col-2 text-right">
+										<a href="#" data-dismiss="modal" class="fas fa-times text-large color-default"></a>
+									</div>
+								</div>
+								<div class="modal-icon-title">
+									<span class="overline text-medium">Isi Kolom</span>
+								</div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal3Tombol1Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal3Tombol1Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal3Tombol1Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="separator-small"></div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal3Tombol2Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal3Tombol2Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal3Tombol2Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="separator-small"></div>
+								<div class="row">
+									<div class="col-3">
+										<div class="input-wrap">
+											<select class="custom-select" id="modal3Tombol3Logo">
+												<option>Link</option>
+												<option value="1">Whatsapp</option>
+												<option value="2">Facebook</option>
+												<option value="3">Line</option>
+												<option value="4">Instagram</option>
+												<option value="5">Telegram</option>
+												<option value="6">Facebook Messenger</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-9">
+										<div class="input-wrap">
+											<input type="modal3Tombol3Text" placeholder="Text">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="input-wrap">
+											<input type="modal3Tombol3Link" placeholder="Link">
+										</div>
+									</div>
+								</div>
+								<div class="button-default">
+									<a href="">
+										<button class="button-default">
+											<text>Simpan</text>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 			</div>
-			<!-- END MODAL TAMBAH -->
+			<!-- END MODAL -->
 
 			<div class="separator-large"></div>
 		</div>
